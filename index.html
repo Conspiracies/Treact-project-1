@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Treact</title>
+    <title>Treact Modern React Templates & Components</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="styles.css" />
     <script
       src="https://kit.fontawesome.com/5e0d8d1103.js"
       crossorigin="anonymous"
@@ -13,18 +15,65 @@
       type="image/png"
       href="https://treact.owaiskhan.me/static/media/logo.2c489fc453a1783cbadacf914efa3df6.svg"
     />
-    <script src="index.js"></script>
-    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <section id="landing">
       <nav>
         <div class="row">
           <div class="nav__container">
-            
+            <figure class="nav__logo--wrapper">
+              <a href="" class="nav__logo--container">
+                <img
+                  class="nav__logo"
+                  src="https://treact.owaiskhan.me/static/media/logo.2c489fc453a1783cbadacf914efa3df6.svg"
+                  alt=""
+                />
+                <span class="nav__logo--text">TREACT</span>
+              </a>
+            </figure>
+            <ul class="nav__links">
+              <li><a href="#" class="nav__link">About</a></li>
+              <li><a href="#" class="nav__link">Blog</a></li>
+              <li><a href="#" class="nav__link">Pricing</a></li>
+              <li><a href="#" class="nav__link">Contact us</a></li>
+              <li><a href="#" class="nav__link">Login</a></li>
+              <li>
+                <a href="#" class="nav__link nav__link--primary">Sign up</a>
+              </li>
+            </ul>
           </div>
         </div>
       </nav>
+      <header>
+        <div class="row">
+          <div class="landing__container">
+            <div class="landing__container--text">
+              <h1 class="landing__header">
+                Beautiful React Templates <span class="purple">for you.</span>
+              </h1>
+              <p class="landing__para">
+                Our templates are easy to setup, understand and customize. Fully
+                modular components with a variety of pages and components.
+              </p>
+              <div class="input__email">
+                <input type="emai" placeholder="example@example.com" />
+                <button class="input__email--btn">Get started</button>
+              </div>
+              <p class="landing__customers">OUR TRUSTED CUSTOMERS</p>
+              <figure class="landing__customers--img">
+                <img
+                  src="https://treact.owaiskhan.me/static/media/customers-logo-strip.680ac7c2e8ae28161d2c.png"
+                  alt=""
+                />
+              </figure>
+            </div>
+            <img class="landing__img"
+              src="https://treact.owaiskhan.me/static/media/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </header>
     </section>
   </body>
 </html>
