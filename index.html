@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Treact Modern React Templates & Components</title>
-    <script src="index.js"></script>
     <link rel="stylesheet" href="styles.css" />
     <script
       src="https://kit.fontawesome.com/5e0d8d1103.js"
       crossorigin="anonymous"
     ></script>
+    <script src="index.js"></script>
     <link
       rel="icon"
       type="image/png"
@@ -41,6 +41,43 @@
                 <a href="#" class="nav__link nav__link--primary">Sign up</a>
               </li>
             </ul>
+            <button class="btn__menu" onclick="openMenu()">
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="menu__backdrop">
+              <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                <i class="fas fa-times"></i>
+              </button>
+              <ul class="menu__links">
+                <li class="menu__list">
+                  <a href="#" class="menu__link" onclick="closeMenu()">About</a>
+                </li>
+                <li class="menu__list">
+                  <a href="#" class="menu__link" onclick="closeMenu()">Blog</a>
+                </li>
+                <li class="menu__list">
+                  <a href="#" class="menu__link" onclick="closeMenu()"
+                    >Pricing</a
+                  >
+                </li>
+                <li class="menu__list">
+                  <a href="#" class="menu__link" onclick="closeMenu()"
+                    >Contact us</a
+                  >
+                </li>
+                <li class="menu__list">
+                  <a href="#" class="menu__link" onclick="closeMenu()">Login</a>
+                </li>
+                <li class="menu__list">
+                  <a
+                    href="#"
+                    class="menu__link menu__link--primary"
+                    onclick="closeMenu()"
+                    >Sign up</a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </nav>
@@ -65,7 +102,8 @@
               </div>
               <p class="landing__customers">OUR TRUSTED CUSTOMERS</p>
               <figure class="landing__customers--img">
-                <img class="img--customers"
+                <img
+                  class="img--customers"
                   src="https://treact.owaiskhan.me/static/media/customers-logo-strip.680ac7c2e8ae28161d2c.png"
                   alt=""
                 />
@@ -627,7 +665,7 @@
         <div class="row">
           <div class="contact__container">
             <span class="contact__para"
-              >Develpers all over the world are happily using Treact</span
+              >Developers all over the world are happily using Treact.</span
             >
             <div class="contact__buttons">
               <button class="get__start">Get Started</button>
@@ -670,10 +708,10 @@
               <a href="#" class="link">Culture</a>
               <a href="#" class="link">Onboarding</a>
             </div>
-            <div class="links">
+            <div class="links link__secondary">
               <span class="link__title">LEGAL</span>
               <a href="#" class="link">GDPR</a>
-              <a href="#" class="link">Privacy Polic</a>
+              <a href="#" class="link">Privacy Policy</a>
               <a href="#" class="link">Terms of Service</a>
               <a href="#" class="link">Disclaimer</a>
             </div>
@@ -691,9 +729,15 @@
               >© 2023 Treact Inc. All Rights Reserved.</span
             >
             <div class="footer__links">
-              <a class="footer__link" href="#"><i class="fa-brands fa-twitter"></i></a>
-              <a class="footer__link" href="#"><i class="fa-brands fa-facebook"></i></a>
-              <a class="footer__link" href="#"><i class="fa-brands fa-youtube"></i></a>
+              <a class="footer__link" href="#"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a class="footer__link" href="#"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a class="footer__link" href="#"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
             </div>
           </div>
         </div>
