@@ -390,7 +390,8 @@ h3{
     border: none;
     border-radius: 999px;
     padding: 12px 32px;
-    width: 25%;
+    width: 100%;
+    max-width: 160px;
     margin: 16px 0;
     font-size: 16px;
   }
@@ -1426,12 +1427,17 @@ footer{
 
   .contact__buttons{
     width: 100%;
+    margin-right: 24px;
   }
 
   .get__start,
   .contact_us{
     width: 100%;
     padding: 4px 20px;
+  }
+
+  .testimonial__title{
+    text-align: center;
   }
 
   .user__testimonial{
@@ -1448,6 +1454,11 @@ footer{
 
   .user__img--wrapper{
     padding: 12px 0;
+    margin-left: 24px;
+  }
+
+  .arrows{
+    margin: 8px 12px;
   }
 
   .copyright__info{
@@ -1463,5 +1474,30 @@ footer{
 
   .links{
     width:calc(100%/2);
+  }
+
+  .plan{
+    width: 100%;
+    padding: 12px 24px;
+  }
+
+  .faqs__container{
+    width: 100%;
+    padding-right:40px;
+  }
+
+  .faqs__questions{
+    margin-right: 24px;
+    margin-left: 24px;
+    width:100%;
+  }
+
+  .faqs__para,
+  .faqs__title{
+    padding-left: 40px;
+  }
+
+  h1{
+    font-size:32px !important;
   }
 }
