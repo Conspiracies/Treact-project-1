@@ -521,28 +521,25 @@ h3{
   margin: 8px 0;
 }
 
-.fa-dollar-sign{
+.values__logo-1{
+  padding: 8px;
   margin-right: 12px;
-  border: 1px solid lightgreen;
-  height: 40px;
-  width: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: lightgreen;
-  border-radius: 999px;
+  color: #3a7c5b;
+  background-color: #9ae69a;
+  border-radius: 99px;
+  height: 36px;
+  width: 36px;
 }
 
-.fa-briefcase{
+.values__logo-2{
+  padding: 8px;
   margin-right: 12px;
-  border: 1px solid rgba(255, 74, 74, 1);
-  height: 40px;
-  width: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(255, 74, 74, 1);
-  border-radius: 999px;
+  display: inline-block;
+  color: #9b2c2c;
+  background-color: rgb(254 178 178);
+  border-radius: 9999px;
+  height: 36px;
+  width: 36px;
 }
 
 .values__description--title{
